@@ -1,0 +1,50 @@
+\doxysection{functions.\+h}
+\hypertarget{functions_8h_source}{}\label{functions_8h_source}\mbox{\hyperlink{functions_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ FUNCTIONS\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ FUNCTIONS\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <iomanip>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <limits>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <algorithm>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <cstdlib>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <ctime>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <chrono>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{studentas_8h}{studentas.h}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00018\ \textcolor{keyword}{using\ namespace\ }std::chrono;}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{comment}{//\ struct\ studentas}}
+\DoxyCodeLine{00021\ \textcolor{comment}{//\ \{}}
+\DoxyCodeLine{00022\ \textcolor{comment}{//\ \ \ \ \ string\ vardas;}}
+\DoxyCodeLine{00023\ \textcolor{comment}{//\ \ \ \ \ string\ pavarde;}}
+\DoxyCodeLine{00024\ \textcolor{comment}{//\ \ \ \ \ vector<int>\ ndrez;\ //sudaromas\ vektorius}}
+\DoxyCodeLine{00025\ \textcolor{comment}{//\ \ \ \ \ int\ erez;}}
+\DoxyCodeLine{00026\ \textcolor{comment}{//\ \ \ \ \ double\ gbalas;}}
+\DoxyCodeLine{00027\ \textcolor{comment}{//\ \};}}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{extern}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{functions_8h_a9c4532fc8d305799c894302db771255f}{tlaikas}};}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_a25612edacb66f323f988127223660ad8}{skaitymasisfailo}}(vector<studentas>\ \&A,\ \textcolor{keywordtype}{char}\ budas,\ \textcolor{keywordtype}{char}\ ivedbudas);}
+\DoxyCodeLine{00032\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_ab86019e39a66eab7c6d326986303da76}{isvedimas}}(vector<studentas>\ \&A,\ \textcolor{keywordtype}{char}\ budas);}
+\DoxyCodeLine{00033\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_a2d2a4065bb8b169b0801d61ab7c732c6}{pazymiuived}}(\mbox{\hyperlink{classstudentas}{studentas}}\ \&new\_studentas,\ \textcolor{keywordtype}{char}\ budas,\ \textcolor{keywordtype}{int}\ ivedbudas);}
+\DoxyCodeLine{00034\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_a4ce3ed42150cb48d0cfeed057256c2e8}{skaiciavimas}}(\mbox{\hyperlink{classstudentas}{studentas}}\ \&new\_studentas,\ \textcolor{keywordtype}{char}\ budas);}
+\DoxyCodeLine{00035\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_a340fb696a23fffa5d6c53c4b78012c49}{irasymasifaila}}(vector<studentas>\ \&A,\ \textcolor{keywordtype}{char}\ budas);}
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{functions_8h_a4dbb57b7b505890f212f0b86eb5f79a6}{rikiavimasgbalas}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classstudentas}{studentas}}\ \&a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classstudentas}{studentas}}\ \&b);}
+\DoxyCodeLine{00037\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{functions_8h_a030d2dd00c0867403c49de356767126d}{rikiavimasvardas}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classstudentas}{studentas}}\ \&a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classstudentas}{studentas}}\ \&b);}
+\DoxyCodeLine{00038\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{functions_8h_a14c6518129b1b3c2007b15f2a198bcf5}{rikiavimaspavarde}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{classstudentas}{studentas}}\ \&a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classstudentas}{studentas}}\ \&b);}
+\DoxyCodeLine{00039\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_a24b77e7a3a7eeda3e8a815793e077719}{rikiavimas}}(vector<studentas>\ \&A);}
+\DoxyCodeLine{00040\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_a6aed379ef5f44a3b346fb74534b89ef2}{skirstymas1}}(vector<studentas>\ \&A,\ vector<studentas>\ \&K,\ vector<studentas>\ \&V);}
+\DoxyCodeLine{00041\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_abc18edb0a6b476e08de59c4eaa27b2f6}{skirstymas2}}(vector<studentas>\ \&A,\ vector<studentas>\ \&V);}
+\DoxyCodeLine{00042\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_a8b4454ddfa4c09fae7c42509d0f8215a}{skirstymas3}}(vector<studentas>\ \&A,\ vector<studentas>\ \&K,\ vector<studentas>\ \&V);}
+\DoxyCodeLine{00043\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{functions_8h_a0acb9c2062cec8964dcc11dc88d8c31f}{irasymasifailaK}}(vector<studentas>\ \&A,\ vector<studentas>\ \&K,\ vector<studentas>\ \&V,\ \textcolor{keywordtype}{char}\ budas,\ \textcolor{keywordtype}{int}\ skistr);}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ FUNCTIONS\_H}}
+
+\end{DoxyCode}
